@@ -1,0 +1,68 @@
+import { Game } from '../types';
+
+export const games: Game[] = [
+  {
+    id: 'mobile-legends',
+    title: 'Mobile Legends',
+    description: 'Top-up Diamonds for Mobile Legends: Bang Bang.',
+    imageUrl: 'https://picsum.photos/seed/mlbb/400/300',
+    bannerUrl: 'https://picsum.photos/seed/mlbb-banner/1200/400',
+    longDescription: 'Get your Mobile Legends Diamonds in seconds! Just enter your user ID, select the value of Diamonds you wish to purchase, complete the payment, and the Diamonds will be added immediately to your MLBB account. Power up your hero now!',
+    prices: [
+      { name: '100 Diamonds', price: '$1.99', imageUrl: 'https://picsum.photos/seed/ml-granger/200/150' },
+      { name: '250 Diamonds', price: '$4.99', imageUrl: 'https://picsum.photos/seed/ml-gusion/200/150' },
+      { name: '500 Diamonds', price: '$9.99', imageUrl: 'https://picsum.photos/seed/ml-fanny/200/150' },
+      { name: '1000 Diamonds', price: '$19.99', imageUrl: 'https://picsum.photos/seed/ml-ling/200/150' },
+      { name: '2000 Diamonds', price: '$39.99', imageUrl: 'https://picsum.photos/seed/ml-chou/200/150' },
+      { name: '5000 Diamonds', price: '$99.99', imageUrl: 'https://picsum.photos/seed/ml-selena/200/150' },
+    ],
+  },
+  {
+    id: 'pubg-mobile',
+    title: 'PUBG Mobile',
+    description: 'Purchase UC for PUBG Mobile to get new skins.',
+    imageUrl: 'https://picsum.photos/seed/pubg/400/300',
+    bannerUrl: 'https://picsum.photos/seed/pubg-banner/1200/400',
+    longDescription: 'PUBG Mobile UC is the in-game currency. Use it to purchase exclusive in-game items like weapon skins, outfits, parachutes, and more. Top up your UC with us for a fast and reliable service.',
+    prices: [
+      { name: '60 UC', price: '$0.99', imageUrl: 'https://picsum.photos/seed/pubg-character1/200/150' },
+      { name: '325 UC', price: '$4.99', imageUrl: 'https://picsum.photos/seed/pubg-ghillie/200/150' },
+      { name: '660 UC', price: '$9.99', imageUrl: 'https://picsum.photos/seed/pubg-m416/200/150' },
+      { name: '1800 UC', price: '$24.99', imageUrl: 'https://picsum.photos/seed/pubg-character2/200/150' },
+      { name: '3850 UC', price: '$49.99', imageUrl: 'https://picsum.photos/seed/pubg-awm/200/150' },
+      { name: '8100 UC', price: '$99.99', imageUrl: 'https://picsum.photos/seed/pubg-pan/200/150' },
+    ],
+  },
+  {
+    id: 'free-fire',
+    title: 'Free Fire',
+    description: 'Instantly top up your Free Fire Diamonds.',
+    imageUrl: 'https://picsum.photos/seed/freefire/400/300',
+    bannerUrl: 'https://picsum.photos/seed/freefire-banner/1200/400',
+    longDescription: 'Top up Free Fire Diamonds to buy weapon skins, pets, and characters. Enter your Free Fire player ID, select the amount of Diamonds you need, and complete your transaction. Your Diamonds will be credited instantly.',
+    prices: [
+      { name: '100 Diamonds', price: '$0.99', imageUrl: 'https://picsum.photos/seed/ff-kelly/200/150' },
+      { name: '310 Diamonds', price: '$2.99', imageUrl: 'https://picsum.photos/seed/ff-alok/200/150' },
+      { name: '520 Diamonds', price: '$4.99', imageUrl: 'https://picsum.photos/seed/ff-chrono/200/150' },
+      { name: '1060 Diamonds', price: '$9.99', imageUrl: 'https://picsum.photos/seed/ff-moco/200/150' },
+      { name: '2180 Diamonds', price: '$19.99', imageUrl: 'https://picsum.photos/seed/ff-hayato/200/150' },
+      { name: '5600 Diamonds', price: '$49.99', imageUrl: 'https://picsum.photos/seed/ff-cobra/200/150' },
+    ],
+  },
+   {
+    id: 'valorant',
+    title: 'Valorant',
+    description: 'Buy Valorant Points (VP) for weapon skins and more.',
+    imageUrl: 'https://picsum.photos/seed/valorant/400/300',
+    bannerUrl: 'https://picsum.photos/seed/valorant-banner/1200/400',
+    longDescription: 'Purchase Valorant Points to customize your arsenal with unique weapon skins, unlock new agents, and buy the latest battle pass. Enter your Riot ID, choose your VP amount, and get ready to style on your opponents.',
+    prices: [
+      { name: '475 VP', price: '$4.99', imageUrl: 'https://picsum.photos/seed/val-jett/200/150' },
+      { name: '1000 VP', price: '$9.99', imageUrl: 'https://picsum.photos/seed/val-reyna/200/150' },
+      { name: '2050 VP', price: '$19.99', imageUrl: 'https://picsum.photos/seed/val-phoenix/200/150' },
+      { name: '3650 VP', price: '$34.99', imageUrl: 'https://picsum.photos/seed/val-sage/200/150' },
+      { name: '5350 VP', price: '$49.99', imageUrl: 'https://picsum.photos/seed/val-omen/200/150' },
+      { name: '11000 VP', price: '$99.99', imageUrl: 'https://picsum.photos/seed/val-sova/200/150' },
+    ],
+  },
+];
